@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "RESITDC x MANAGIX",
+  "version": "1.0.0",
+  "description": "Fitur untuk menghapus red intereset agar lebih cepat",
+  "content_scripts": [{
+    "js": ["clearButton.js"],
+    "css": ["clearButton.css"],
+    "matches": ["https://app.managix.id/campaign/create*"]
+  }],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "resitdc.png",
+      "48": "resitdc.png",
+      "128": "resitdc.png"
+    }
+  },
+  "icons": {
+    "16": "resitdc.png",
+    "48": "resitdc.png",
+    "128": "resitdc.png"
+  }
+}

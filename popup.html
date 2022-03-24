@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESITDC</title>
+    <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            background: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 210px;
+        }
+        #resitdc-framework {
+            display: flex;
+            flex-wrap: nowrap;
+            padding: 10px 16px;
+        }
+        #resitdc-framework div.logo {
+            width: 90px;
+        }
+        #resitdc-framework div.logo img {
+            width: 100%;
+        }
+        #resitdc-framework div.menu {
+            width: auto;
+            flex: 1;
+            padding-left: 15px;
+            display: flex;
+            align-items: center;
+        }
+        #resitdc-framework ul.list-credits {
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        #resitdc-framework ul.list-credits li {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .btn-resitdc {
+            outline: none;
+            border: none;
+            text-decoration: none;
+            padding: 4px 13px;
+            border-radius: 50px;
+            background-color: #222;
+            color: #FFF;
+        }
+        .btn-resitdc:hover {
+            color:#19F8FF;
+        }
+    </style>
+</head>
+<body>
+    <div id="resitdc-framework">
+        <div class="logo">
+            <img src="./resitdc.png" alt="RESITDC LOGO">
+        </div>
+        <div class="menu">
+            <ul class="list-credits">
+                <li>
+                    <a href="https://resitdc.id" target="_blank" class="btn-resitdc">Website</a>
+                </li>
+                <li>
+                    <a href="https://instagram.com/resitdc" target="_blank" class="btn-resitdc">Instagram</a>
+                </li>
+                <li>
+                    <a href="https://id.linkedin.com/in/resitdc" target="_blank" class="btn-resitdc">LinkedIn</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

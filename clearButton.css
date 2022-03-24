@@ -1,0 +1,29 @@
+#resitdc-tools {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 9000;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.resitdc-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#resitdc-clear {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    padding: 5px 17px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #24a3f2;
+    cursor: pointer;
+}
+#resitdc-clear[disabled]{
+    cursor: not-allowed;
+    background-color: #4a617a;
+}
